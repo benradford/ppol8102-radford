@@ -25,3 +25,13 @@ names(data)
 - `loss_type` (string): The type of equipment (or casualty) that the
   estimate apply to.  
 - …
+
+``` r
+plot(density(data$loss_count),
+     xlab="Loss Counts",
+     ylab="Density",
+     las=1,
+     main="Distribution of Loss Counts")
+```
+
+![](codebook_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
