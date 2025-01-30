@@ -28,4 +28,10 @@ names(data)
 apply to.  
 * ...  
 
-
+```{r}
+plot(density(data$loss_count),
+     xlab="Loss Counts",
+     ylab="Density",
+     las=1,
+     main="Distribution of Loss Counts")
+```
