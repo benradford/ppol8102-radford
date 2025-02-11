@@ -10,15 +10,6 @@ during and immediately following this time period.
 
 ## Variable Descriptions
 
-``` r
-data <- read.csv("data/replication-data-pnas.csv")
-names(data)
-```
-
-    ##  [1] "days"          "loss_count"    "loss_type"     "claim_source" 
-    ##  [5] "time_frame"    "loss_country"  "minimum"       "maximum"      
-    ##  [9] "category"      "source_target"
-
 - `days` (integer): The number of days following the initial invasion
   date, Feb. 24, 2022.  
 - `loss_count` (integer): The estimated number of losses of that type.  
@@ -35,3 +26,8 @@ plot(density(data$loss_count),
 ```
 
 ![](codebook_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+|       | Header 1 | Header 2 |
+|-------|----------|:--------:|
+| Row 1 | a        |    b     |
+| Row 2 | c        |    d     |

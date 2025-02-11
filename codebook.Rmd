@@ -16,7 +16,7 @@ following this time period.
 
 ## Variable Descriptions
 
-```{r}
+```{r echo=FALSE, results='hide'}
 data <- read.csv("data/replication-data-pnas.csv")
 names(data)
 ```
@@ -35,3 +35,10 @@ plot(density(data$loss_count),
      las=1,
      main="Distribution of Loss Counts")
 ```
+
+|       | Header 1 | Header 2 |
+|-------|----------|:--------:|
+| Row 1 | a        | b        |
+| Row 2 | c        | d        |
+
+
